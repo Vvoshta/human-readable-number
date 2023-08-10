@@ -30,7 +30,6 @@ module.exports = function toReadable (number) {
     90: "ninety",
 }
 
-function toReadable(number) {
     if (number in numberToWord) return numberToWord[number];
 
     let words = "";
@@ -53,5 +52,4 @@ function toReadable(number) {
     }
 
     return words;
-}
 }
